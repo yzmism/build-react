@@ -1,0 +1,27 @@
+* Prereq
+** Package Manager
+   - Choosen NPM or Yarn, yarn is preferred
+* Steps
+** Setup
+#+BEGIN_SRC shell
+$ mkdir reactapp && cd reactapp
+$ npm init -y
+# react
+$ npm install --save-dev react react-dom
+
+# webpack
+$ npm install --save-dev  webpack webpack-cli
+
+# babel
+$ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
+#+END_SRC
+** Files
+#+BEGIN_SRC shell
+# create folder structure
+$ mkdir -p build/ public/assets/
+$ mkdir -p src/{state/{ducks/,utils/},utilities/,views/{routes/,components/,layouts/,styles}}
+#+END_SRC
+* Links
+  - https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+  - https://www.valentinog.com/blog/react-webpack-babel/
+  - https://www.learnhowtoprogram.com/react/advanced-topics/react-and-redux-design-patterns
