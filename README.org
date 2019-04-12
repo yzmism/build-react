@@ -25,3 +25,4 @@ $ mkdir -p src/{state/{ducks/,utils/},utilities/,views/{routes/,components/,layo
   - https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
   - https://www.valentinog.com/blog/react-webpack-babel/
   - https://www.learnhowtoprogram.com/react/advanced-topics/react-and-redux-design-patterns
+  - https://github.com/codica2/react-app-best-practice
